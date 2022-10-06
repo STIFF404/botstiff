@@ -149,9 +149,9 @@ async function startNaze() {
                 }
 
                 if (anu.action == 'add') {
-                    naze.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `*Hay kak* @${num.split("@")[0]} *Selamat Datang!!*\n*Di* *${metadata.subject}*\n\n*Silahkan Intro Terlebih Dahulu*\n*Nama :*\n*Umur :*\n*Alamat :*\n*Link TikTok :*\n\n*Wajib Cek Peraturan Di Deskripsi Yak Brohh*\n*Semoga Betah!!*` })
+                    naze.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `*Hay kak* @${num.split("@")[0]} *Selamat Datang!!*\n*Di Grup Team* *${metadata.subject}*\n\n*Silahkan Intro Terlebih Dahulu*\n*Nama :*\n*Umur :*\n*Alamat :*\n*Link TikTok :*\n\n*Wajib Cek Peraturan Di Deskripsi Yak Brohh*\n*Semoga Betah!!*` })
                 } else if (anu.action == 'remove') {
-                    naze.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
+                    naze.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Keluar/DiKick ${metadata.subject} \nSemoga Harimu Indah ^_^` })
                 }
             }
         } catch (err) {
