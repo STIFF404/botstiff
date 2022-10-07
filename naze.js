@@ -2035,7 +2035,7 @@ break
                     buttons: buttons,
                     headerType: 5
                 }
-                xavior.sendMessage(m.chat, buttonMessage, { quoted: m })
+                naze.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
            /**case 'tiktokwm': case 'tiktokwatermark': {
