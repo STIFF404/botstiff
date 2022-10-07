@@ -2850,7 +2850,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             case 'bot': case 'BOT': {
 stiff = `*Apasi Anjing, Panggil Gua!!*`
 let buttons = [{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await naze.sendButtonText(m.chat, buttons, stiff, nyoutube, m, {mentions: ments})
+            await naze.sendButtonText(m.chat, buttons, stiff, nyoutube, m)
             }
             break
             case 'mgroup': {
