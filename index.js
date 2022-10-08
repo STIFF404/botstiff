@@ -116,15 +116,15 @@ async function startNaze() {
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
-       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup telah ditutup oleh admin, Sekarang hanya admin yang dapat mengirim pesan !`, `Group Settings Change Message by ArullOfc`, wm_fatih, [])
+       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup telah ditutup oleh admin, Sekarang hanya admin yang dapat mengirim pesan !`, `Group Settings Change Message by Stiff`, wm_fatih, [])
        } else if(pea[0].announce == false) {
-       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup telah dibuka oleh admin, Sekarang peserta dapat mengirim pesan !`, `Group Settings Change Message by ArullOfc`, wm_fatih, [])
+       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup telah dibuka oleh admin, Sekarang peserta dapat mengirim pesan !`, `Group Settings Change Message by Stiff`, wm_fatih, [])
        } else if (pea[0].restrict == true) {
-       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nInfo group telah dibatasi, Sekarang hanya admin yang dapat mengedit info group !`, `Group Settings Change Message by ArullOfc`, wm_fatih, [])
+       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nInfo group telah dibatasi, Sekarang hanya admin yang dapat mengedit info group !`, `Group Settings Change Message by Stiff`, wm_fatih, [])
        } else if (pea[0].restrict == false) {
-       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nInfo group telah dibuka, Sekarang peserta dapat mengedit info group !`, `Group Settings Change Message by ArullOfc`, wm_fatih, [])
+       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nInfo group telah dibuka, Sekarang peserta dapat mengedit info group !`, `Group Settings Change Message by Stiff`, wm_fatih, [])
        } else {
-       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup Subject telah diganti menjadi *${pea[0].subject}*`, `Group Settings Change Message by ArullOfc`, wm_fatih, [])
+       naze.send5ButImg(pea[0].id, `「 *Group Settings Change* 」\n\nGroup Subject telah diganti menjadi *${pea[0].subject}*`, `Group Settings Change Message by Stiff`, wm_fatih, [])
      }
     })
 
