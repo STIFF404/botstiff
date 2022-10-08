@@ -41,7 +41,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 25
+    free: 9999999
 }
 global.thumb = { url: 'https://telegra.ph/file/b908e9916ab3c82cbb09b.png' }
 global.vaze = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
