@@ -97,11 +97,11 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
             let user = global.db.data.users[m.sender]
             if (typeof user !== 'object') global.db.data.users[m.sender] = {}
             if (user) {
-                if (!isNumber(user.afkTime)) user.afkTime = -1
+                if (!isNumber(user.afkTime)) user.afkTime = 0
                 if (!('afkReason' in user)) user.afkReason = ''
                 if (!isNumber(user.limit)) user.limit = limitUser
             } else global.db.data.users[m.sender] = {
-                afkTime: -1,
+                afkTime: 0,
                 afkReason: '',
                 limit: limitUser,
             }
