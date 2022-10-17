@@ -1,8 +1,8 @@
 /**
    * Create By Dika Ardnt.
-   * Recode By Naze Dev
-   * Contact Me on wa.me/6282113821188
-   * Follow https://github.com/nazedev
+   * Recode By Stiff totemo
+   * Contact Me on wa.me/6283879685072
+   * Follow https://github.com/STIFF404
 */
 
 require('./config')
