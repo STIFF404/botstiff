@@ -20,7 +20,7 @@ global.author = ''
 global.websitex = 'https://tiktok.com/@omstiff404'
 global.reactmoji = '🗿'
 global.sessionName = 'session'
-global.prefa = ['','!','.','#','&']
+global.prefa = ['#']
 global.sp = ''
 global.mess = {
     success: 'Done',
