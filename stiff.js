@@ -2361,7 +2361,7 @@ _Silahkan Pilih Menu Di Bawah ya_
             break
             case 'allmenu': {
 alzmn = ` `
-let buttons = [{ urlButton: { displayText: `TikTok`, url : `${websitex}` } },{ buttonId: 'donasi', buttonText: { displayText: 'Donate' }, type: 1 }]
+let buttons = [{ buttonId: 'donasi', buttonText: { displayText: 'Donate' }, type: 1 }]
             await stiff.sendButtonText(m.chat, buttons, alzmn, allmnz, m)
             }
             break
