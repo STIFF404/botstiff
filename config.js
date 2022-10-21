@@ -1,9 +1,3 @@
-/**
-   * Create By Dika Ardnt.
-   * Recode By Naze Dev
-   * Contact Me on wa.me/6282113821188
-   * Follow https://github.com/nazedev
-*/
 
 const fs = require('fs')
 const chalk = require('chalk')
@@ -22,10 +16,10 @@ global.APIKeys = {
 global.owner = ['6283879685072']
 global.ownernomer = "6283879685072"
 global.premium = ['6283879685072']
-global.packname = 'Stiff No Counter\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
+global.packname = 'Stiff No Counter'
 global.author = ''
 global.websitex = 'https://tiktok.com/@omstiff404'
-global.reactmoji = '🗿'
+global.reactemoji = '🗿'
 global.sessionName = 'session'
 global.prefa = ['','!','.','#','&']
 global.sp = ''
@@ -43,7 +37,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 9999999
+    free: 1000
 }
 global.thumb = fs.readFileSync('./lib/1.jpg')
 global.vaze = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
