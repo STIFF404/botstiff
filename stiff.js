@@ -2712,7 +2712,7 @@ break
                     }
                     return !0
                 }
-const listTag = [`${global.owner}@s.whatsapp.net`]
+/*const listTag = [`${global.owner}@s.whatsapp.net`]
 const partiNum = (m.mtype === 'extendedTextMessage') ? m.message.extendedTextMessage.contextInfo.participant : ''
 //anti-tag 2
 if (listTag.includes(partiNum)) {
@@ -2723,14 +2723,14 @@ let sloli = `https://raw.githubusercontent.com/STIFF404/botstiff/main/lib/2.webp
 }
 /*let ttoimgeh =`link`
 let imgeh = stiff.sendMessage(m.chat, ttoimgeh, m, { image: buffer })
-                    fs.unlinkSync(imgeh)*/
+                    fs.unlinkSync(imgeh)
 //anti-tag 3
 if (budy.includes(`${global.owner}`)) {
 if (!m.isGroup) return
 let sloli = `https://raw.githubusercontent.com/STIFF404/botstiff/main/lib/2.webp`
 	        let ssttloli = await stiff.sendImageAsSticker(m.chat, sloli, m, { packname: global.packname, author: global.auhor })
 	        await fs.unlinkSync(ssttloli)
-}
+}*/
 /*const jamtutupz = moment.tz('Asia/Jakarta').format('HH:mm:ss')  
 if (jamtutupz === "22:00:00"){
 if (!m.isGroup) return
