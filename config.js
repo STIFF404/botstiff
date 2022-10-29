@@ -15,7 +15,7 @@ global.APIKeys = {
 // Other
 global.owner = ['6283879685072']
 global.ownernomer = "6283879685072"
-global.premium = ['6283879685072', '6288296172396']
+global.premium = ['6283879685072', '6288296172396', '6289518117052']
 global.packname = 'Stiff No Counter'
 global.author = ''
 global.websitex = 'https://tiktok.com/@omstiff404'
