@@ -1288,7 +1288,7 @@ break
 	    break
 	       case 'attp': case 'ttp': {
            if (!text) throw `Example : ${prefix + command} text`
-           await stiff.sendMedia(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'stiff', 'morou', m, {asSticker: true})
+           await stiff.sendMedia(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'naze', 'morou', m, {asSticker: true})
 
          }
          break
@@ -1457,7 +1457,7 @@ break
                 m.reply(teks)
                 })
                 }
-                break
+                break*/
         case 'gimage': {
         if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
 		db.data.users[m.sender].limit -= 1 // -1 limit
@@ -1480,7 +1480,7 @@ break
                 stiff.sendMessage(m.chat, buttonMessage, { quoted: m })
         }
         break
-	    case 'play': case 'ytplay': {
+	    /*case 'play': case 'ytplay': {
 	            if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
 		db.data.users[m.sender].limit -= 1 // -1 limit
                 if (!text) throw `Example : ${prefix + command} story wa anime`
@@ -1619,8 +1619,6 @@ break
             }
             break
             case 'wallpaper': {
-                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-		db.data.users[m.sender].limit -= 1 // -1 limit
                 if (!text) throw 'Masukkan Query Title'
 		let { wallpaper } = require('./lib/scraper')
                 anu = await wallpaper(text)
