@@ -142,7 +142,7 @@ async function startStiff() {
                 }
 
                 if (anu.action == 'add') {
-                    stiff.sendMessage(anu.id, { image: { url: `https://api.akuari.my.id/canvas/welcome?name=${num.split("@")[0]}&gcname=${metadata.subject}&${ppgroup}&member=???&pp=${ppuser}&bg=https://i.ibb.co/tYgwwT2/images-2.jpg` }, contextInfo: { mentionedJid: [num] }, caption: `*Hay Bro* @${num.split("@")[0]}\n*Wellcome* *To* *${metadata.subject}*\n\n_Semoga Betah Ya Brohh_` })
+                    stiff.sendMessage(anu.id, { image: { url: `https://api.akuari.my.id/canvas/welcome?name=${num.split("@")[0]}&gcname=${metadata.subject}&$ppgc${ppgroup}&member=404&pp=${ppuser}&bg=https://i.ibb.co/tYgwwT2/images-2.jpg` }, contextInfo: { mentionedJid: [num] }, caption: `*Hay Bro* @${num.split("@")[0]}\n*Wellcome* *To* *${metadata.subject}*\n\n_Semoga Betah Ya Brohh_` })
                 } else if (anu.action == 'remove') {
                     stiff.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} *Keluar/Dikick*\n*Dari* *${metadata.subject}*\n_Semoga Harimu Penuh Dengan Loli_🤘🥴` })
                 } else if (anu.action == 'promote') {
