@@ -142,7 +142,7 @@ async function startStiff() {
                 }
 
                 if (anu.action == 'add') {
-                    stiff.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `*Hay Bro* @${num.split("@")[0]} *Wellcome*\n*To ${metadata.subject}` })
+                    stiff.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `*Hay Bro* @${num.split("@")[0]} *Wellcome*\n*To* ${metadata.subject}` })
                 } else if (anu.action == 'remove') {
                     stiff.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} *Keluar/Dikick*\n*Dari* *${metadata.subject}*\n_Semoga Harimu Penuh Dengan Loli_🤘🥴` })
                 } else if (anu.action == 'promote') {
